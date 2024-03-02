@@ -12,6 +12,8 @@ export default function aprendizaje() {
           Componente Head para cargar fuentes</li>
           <li> Sistema Basado en rutas de Next JS(nombre de archivos en minusculas, pero en mayusculas la f. y el export ). En Next usamos el componente Link con href dentro, a diferencia de react-router-dom que es que es Link con to.</li>
           <li> Sintaxis hojas de estilo, (header.module.css) y su sintaxis para  className como styles.header, es decir nombre de archivo y clase(nombre obj y key). Los módulos de css tienen el scope donde se estan utilizando</li>
+          <li>Routing dinamico, carpeta dentro de pages con nombre de la variable entre corchetes</li>
+          <li>Pagina 404 y su personalizacion</li>
         </ul>
       </div>
     </Layout>

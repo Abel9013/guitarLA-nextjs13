@@ -1,21 +1,20 @@
 import Link from "next/link"
-import { useRouter } from "next/router"
+import styles from "../styles/footer.module.css"
 
 export default function Footer() {
-  const router = useRouter()
 
   return (
-    <footer>
-      <div className="contenedor">
+    <footer className={styles.footer}>
+      <div className={`contenedor ${styles.contenido}`}>
         {/* <nav className={styles.navegacion}> */}
-        <nav>
+        <nav className={styles.navegacion}>
             <Link className={""} href="/">Inicio</Link>
             <Link className={""} href="/nosotros">Nosotros</Link>
             <Link className={""} href="/tienda">Tienda</Link>
             <Link className={""} href="/blog">Blog</Link>
             <Link className={""} href="/aprendizaje">Aprendizaje</Link>
         </nav>      
-        <p>Todos los derechos reservados {new Date().getFullYear()}</p>
+        <p className={styles.copyright}>Todos los derechos reservados {new Date().getFullYear()}</p>
       </div>
     </footer>
   )

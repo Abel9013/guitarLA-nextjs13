@@ -14,6 +14,7 @@ export default function aprendizaje() {
           <li> Sintaxis hojas de estilo, (header.module.css) y su sintaxis para  className como styles.header, es decir nombre de archivo y clase(nombre obj y key). Los módulos de css tienen el scope donde se estan utilizando</li>
           <li>Routing dinamico, carpeta dentro de pages con nombre de la variable entre corchetes</li>
           <li>Pagina 404 y su personalizacion</li>
+          <li>Componente Image, importado de "next/image", el cual requiere un height y width</li>
         </ul>
       </div>
     </Layout>

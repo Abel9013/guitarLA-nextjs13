@@ -15,6 +15,8 @@ export default function aprendizaje() {
           <li>Routing dinamico, carpeta dentro de pages con nombre de la variable entre corchetes</li>
           <li>Pagina 404 y su personalizacion</li>
           <li>Componente Image, importado de "next/image", el cual requiere un height y width</li>
+          <li>Context en next con la funcion de añadir al carrito. En componente _app creo lo que va en el context y lo paso como props de Component y en el componente lo recibo como una prop </li>
+          <li>Orden de Imports en el proyecto(forma descendente): imports de React, libreria, componentes, hojas de estilo.</li>
         </ul>
       </div>
     </Layout>
